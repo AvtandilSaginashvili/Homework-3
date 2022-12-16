@@ -1,0 +1,72 @@
+* {box-sizing: border-box;
+}
+body {
+    background-color: rgba(242, 242, 242, 1);
+    margin: 0;
+    padding: 0;
+}
+.mydiv {
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 718px;
+    height: 419px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign {
+    font-size: 22px;
+    font-weight: 700;
+}
+.email {
+    display: flex;
+    color: rgb(102, 102, 102);
+    padding-top: 5px;
+    left: 51px;
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 0.5;
+    border:solid gray 1px;
+}
+.password {
+    display: flex;
+    color: rgb(102, 102, 102);
+    top: 202px;
+    left: 51px;
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 0.5;
+    border:solid gray 1px;
+}
+p {
+    padding-top: 10px;
+    padding-left: 2.5px;
+    width: 191px;
+    height: 14px;
+    font-size: 16px;
+}
+.lost {
+    color: rgba(6, 83, 173, 1);
+    margin-top: 13px;
+}
+.dont {
+    padding-top: 35px;
+}
+.signup {
+    color: blue;
+}
+.button {
+    background-color: rgba(255, 221, 4, 1);
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin-left: 45px;
+    margin-top: -10px;
+    position: absolute;
+}
